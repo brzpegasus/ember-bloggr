@@ -5,7 +5,7 @@
     "jquery": "~1.9.1",
     "handlebars": "~1.0.0-rc.3",
     "ember": "~1.0.0-rc.3",
-    "ember-data": "http://builds.emberjs.com.s3.amazonaws.com/ember-data-fa946f9cbd8c2899605ee8b49d8d683ba1449f0e.js",
+    "ember-data": "http://builds.emberjs.com.s3.amazonaws.com/ember-data-latest.js",
     "showdown": "~0.3.1",
     "moment": "~2.0.0"
   },
