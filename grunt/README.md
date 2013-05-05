@@ -1,6 +1,6 @@
 # Ember Bloggr App with Grunt
 
-This application structure and configuration closely mirrors the skeleton provided by [Yeoman's Ember Generator](https://github.com/yeoman/generator-ember).
+This application structure and configuration closely mirror the skeleton provided by [Yeoman's Ember Generator](https://github.com/yeoman/generator-ember).
 
  - Uses [Grunt](http://gruntjs.com/) to manage all development and build tasks
  - Uses [Bower](http://bower.io/) to manage third-party dependencies
@@ -27,3 +27,7 @@ $ bower install
  - `grunt build`: Compiles, optimizes, and copies all assets into a `dist` directory.
  - `grunt server:dist`: Similar to `build` but also fires up a static web server on `localhost:9000`.
  - `grunt server`: Compiles assets and fires up a static web server on `localhost:9000`. Minification/concatenation is skipped and files are _not_ copied to a `dist` directory.
+ - `grunt test`: Runs the unit tests (which aren't actually set up for this app).
+ - `grunt`: Default grunt task. Runs JSHint followed by the `test` and `build` tasks.
+
+See [Gruntfile.js](https://github.com/brzpegasus/ember-bloggr/blob/master/grunt/Gruntfile.js) for more options.
