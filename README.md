@@ -6,5 +6,5 @@ The code is reorganized into `controllers`, `models`, `routes`, `views`, etc. an
 
 ## Available Versions
 
-- [Grunt](http://gruntjs.com/)
-- [Mimosa](http://mimosajs.com/)
+- [Grunt](https://github.com/brzpegasus/ember-bloggr/tree/master/grunt)
+- [Mimosa](https://github.com/brzpegasus/ember-bloggr/tree/master/mimosa)
