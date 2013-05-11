@@ -6,4 +6,5 @@ The code is reorganized into `controllers`, `models`, `routes`, `views`, etc. an
 
 ## Available Versions
 
-- [Grunt](http://gruntjs.com/): Based mostly on the grunt configuration from [Yeoman](http://yeoman.io/)'s Ember generator.
+- [Grunt](http://gruntjs.com/)
+- [Mimosa](http://mimosajs.com/)
