@@ -5,6 +5,7 @@ exports.config = {
       ember:
         enabled: true
         path: "ember"
+    nameTransform: /.*\/templates\//
   server:
     defaultServer:
       enabled: true
