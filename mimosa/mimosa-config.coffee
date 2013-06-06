@@ -1,10 +1,11 @@
 exports.config = {
   template:
     handlebars:
-      helpers: ["app/templates/handlebars-helpers"]
+      lib: require 'handlebars'
+      helpers: ['app/templates/handlebars-helpers']
       ember:
         enabled: true
-        path: "ember"
+        path: 'ember'
     nameTransform: /.*\/templates\//
   server:
     defaultServer:
