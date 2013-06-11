@@ -1,0 +1,18 @@
+html, body {
+  margin: 20px;
+}
+
+.navbar .nav > li > .active {
+  color: #000;
+  font-weight: bold;
+}
+
+.title-input-field,
+.intro-input-field {
+  width: 100%;
+}
+
+.extended-input-field {
+  width: 100%;
+  height: 150px;
+}

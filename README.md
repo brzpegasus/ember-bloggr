@@ -2,9 +2,26 @@
 
 This is an adaptation of Tom Dale's [Building an App with Ember.js](https://www.youtube.com/watch?feature=player_detailpage&v=Ga99hMi7wfY) screencast.
 
-The code is reorganized into `controllers`, `models`, `routes`, `views`, etc. and all Handlebars templates are kept in a separate directory as `.hbs` files instead of living within `<script>` tags on the main page.
+All the code shown in the screencast is reorganized into separate `controllers`, `models`, and `routes` directories, and Handlebars templates are moved out of `index.html` and into their own `.hbs` files.
 
-## Available Versions
+This version also uses [RequireJS](requirejs.org) for module/dependency management, and [Mimosa](http://mimosajs.com) for CSS/JS linting, template pre-compiling, livereload, resource optimization, etc.
 
-- [Grunt](https://github.com/brzpegasus/ember-bloggr/tree/master/grunt)
-- [Mimosa](https://github.com/brzpegasus/ember-bloggr/tree/master/mimosa)
+## Commands
+
+Install Mimosa:
+
+```bash
+$ npm install -g mimosa
+```
+
+Build and load the app:
+
+```bash
+$ cd ember-bloggr
+$ npm install
+$ mimosa watch --server
+```
+
+Open a browser and navigate to http://localhost:3000.
+
+List of other Mimosa commands [http://mimosajs.com/commands.html](http://mimosajs.com/commands.html).

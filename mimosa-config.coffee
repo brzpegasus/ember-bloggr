@@ -1,4 +1,5 @@
-exports.config = {
+exports.config =
+  minMimosaVersion: '0.12.6'
   template:
     handlebars:
       lib: require 'handlebars'
@@ -6,7 +7,7 @@ exports.config = {
       ember:
         enabled: true
         path: 'ember'
-    nameTransform: /.*\/templates\//
+    nameTransform: /.*\/templates?\//
   server:
     defaultServer:
       enabled: true
@@ -14,4 +15,3 @@ exports.config = {
     views:
       compileWith: 'handlebars'
       extension: 'hbs'
-}

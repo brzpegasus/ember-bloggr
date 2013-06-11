@@ -2,7 +2,7 @@ define(function() {
   return [
     {
       id: 1,
-      title: "Lorem Ipsum (part 1)",
+      title: "Lorem Ipsum",
       author: "Anonymous",
       publishedAt: new Date('12-27-2012'),
       intro: "_Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..._",
@@ -10,8 +10,8 @@ define(function() {
     },
     {
       id: 2,
-      title: "Lorem Ipsum (part 2)",
-      author: "Anonymous",
+      title: "De finibus bonorum et malorum",
+      author: "Cicero",
       publishedAt: new Date('05-04-2013'),
       intro: "_Praesent auctor luctus congue._",
       extended: "Vestibulum odio metus, tempor quis egestas vitae, luctus nec velit. Pellentesque scelerisque metus scelerisque sem consectetur pellentesque. Pellentesque ullamcorper fermentum molestie. Phasellus pharetra posuere purus, vel euismod metus ultrices ut. Nulla elit dolor, porta at laoreet vel, consectetur a massa. Sed nisl purus, bibendum a sollicitudin eget, cursus a nulla. Quisque mauris mauris, convallis rhoncus tincidunt eu, elementum vitae tellus. Sed lacus mauris, ornare eu tincidunt a, pharetra at justo. Pellentesque massa elit, semper sed egestas id, sodales sed metus. Cras rhoncus consectetur lobortis. Fusce non lacus a justo rutrum iaculis nec ac sem."
