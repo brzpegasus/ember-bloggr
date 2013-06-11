@@ -6,8 +6,6 @@ All the code shown in the screencast is reorganized into separate `controllers`,
 
 This version also uses [RequireJS](requirejs.org) for module/dependency management, and [Mimosa](http://mimosajs.com) for CSS/JS linting, template pre-compiling, livereload, resource optimization, etc.
 
-![Ember Bloggr](http://brzpegasus.github.io/ember-bloggr/img/ember-bloggr.png)
-
 ## Commands
 
 Install Mimosa:
@@ -27,3 +25,5 @@ $ mimosa watch --server
 Open a browser and navigate to http://localhost:3000.
 
 List of other Mimosa commands [http://mimosajs.com/commands.html](http://mimosajs.com/commands.html).
+
+![Ember Bloggr](http://brzpegasus.github.io/ember-bloggr/img/ember-bloggr.png)
