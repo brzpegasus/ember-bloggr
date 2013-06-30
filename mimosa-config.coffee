@@ -3,7 +3,7 @@ exports.config =
   template:
     handlebars:
       lib: require 'handlebars'
-      helpers: ['app/templates/handlebars-helpers']
+      helpers: ['app/helpers/hbs']
       ember:
         enabled: true
         path: 'ember'

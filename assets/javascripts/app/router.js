@@ -1,10 +1,9 @@
 define([
-  'App',
-  'routes/IndexRoute',
-  'routes/PostsRoute'
-], function(App, IndexRoute, PostsRoute) {
+  'app/routes/index_route',
+  'app/routes/posts_route'
+], function(IndexRoute, PostsRoute) {
   
-  return function() {
+  return function (App) {
     App.Router.map(function() {
       this.resource('posts', function() {
         this.resource('post', { path: ':post_id' });
