@@ -1,5 +1,6 @@
 exports.config =
-  minMimosaVersion: '0.12.6'
+  minMimosaVersion: '0.3.12'
+  modules: ['lint', 'testem-require', 'server', 'require', 'minify']
   template:
     handlebars:
       lib: require 'handlebars'

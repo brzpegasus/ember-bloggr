@@ -43,3 +43,6 @@ what
 .tmproj
 nbproject
 Thumbs.db
+
+# Mimosa temp files
+.mimosa
