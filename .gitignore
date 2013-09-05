@@ -46,3 +46,4 @@ Thumbs.db
 
 # Mimosa temp files
 .mimosa
+mimosa-config-commented.coffee
