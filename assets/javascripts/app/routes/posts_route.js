@@ -1,7 +1,7 @@
-define(['ember', 'app/models/post'], function(Ember, Post) {
+define(['ember', 'app/fixtures/posts'], function(Ember, posts) {
   return Ember.Route.extend({
     model: function() {
-      return Post.find();
+      return posts;
     }
   });
 });

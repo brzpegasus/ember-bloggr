@@ -1,14 +1,13 @@
 exports.config =
-  minMimosaVersion: '0.3.12'
-  modules: ['lint', 'testem-require', 'server', 'require', 'minify']
+  minMimosaVersion: '1.0.0'
+  modules: ['lint', 'server', 'require', 'minify', 'live-reload', 'bower', 'testem-require']
   template:
+    nameTransform: /.*\/templates?\//
     handlebars:
-      lib: require 'handlebars'
       helpers: ['app/helpers/hbs']
       ember:
         enabled: true
         path: 'ember'
-    nameTransform: /.*\/templates?\//
   server:
     defaultServer:
       enabled: true
@@ -16,3 +15,10 @@ exports.config =
     views:
       compileWith: 'handlebars'
       extension: 'hbs'
+  require:
+    tracking:
+      enabled: true
+  bower:
+    copy:
+      mainOverrides: { 'showdown': ['compressed/showdown.js'] }
+      strategy: "vendorRoot"

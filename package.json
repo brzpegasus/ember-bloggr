@@ -1,7 +1,0 @@
-{
-  "name": "ember-bloggr",
-  "version": "0.0.1",
-  "dependencies": {
-    "handlebars": "1.0.11"
-  }
-}
